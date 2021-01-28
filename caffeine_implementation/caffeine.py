@@ -15,7 +15,7 @@ def wide_awake(seconds):
             pyautogui.hotkey("ctrl")
     except KeyboardInterrupt:
         print("User terminated program")
-        print("End time: " + str(datetime.datetime.now( )))
+        print("End time: " + str(datetime.datetime.now()))
         sys.exit()
 
 def print_usage():
